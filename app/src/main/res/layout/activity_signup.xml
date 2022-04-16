@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@color/screenbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/roboto_blk"
+        android:text="Create Account"
+        android:textColor="@color/txtcolor"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/roboto_rgl"
+        android:text="Welcome to the Explorer family"
+        android:textStyle="bold"
+        android:textColor="@color/txtcolor"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    #signin signup
+    <androidx.cardview.widget.CardView
+        android:layout_height="50dp"
+        android:layout_width="303dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="#E7E6EA" >
+        #layout1
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="195dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="SIGN IN"
+            android:textColor="@color/txtcolor"
+            android:textFontWeight="1"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        #layout2
+        <androidx.cardview.widget.CardView
+            android:layout_width="152dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginBottom="1dp"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="12dp"
+                android:textColor="@color/txtcolor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_gravity="center"
+                android:textFontWeight="1" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="237dp"
+        android:layout_marginStart="42dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Sign Up"
+        android:textColor="@color/txtcolor"
+        android:textSize="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    #box1 username
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="33dp"
+        app:cardBackgroundColor="@color/screenbg"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#707070"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="16.31dp"
+            android:layout_height="16.31dp"
+            android:layout_marginTop="15.1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="27dp"
+            android:src="@drawable/person"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="61dp"
+            android:text="Username"
+            android:fontFamily="@font/roboto_rgl"
+            android:textColor="#9A9A9A"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    #box2 email
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginStart="33dp"
+        app:cardBackgroundColor="@color/screenbg"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#707070"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="16.31dp"
+            android:layout_height="16.31dp"
+            android:layout_marginTop="15.1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="27dp"
+            android:src="@drawable/mail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="61dp"
+            android:text="Email Id"
+            android:fontFamily="@font/roboto_rgl"
+            android:textColor="#9A9A9A"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    #box3 password
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginStart="33dp"
+        app:cardBackgroundColor="@color/screenbg"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#707070"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="16.31dp"
+            android:layout_height="16.31dp"
+            android:layout_marginTop="15.1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="27dp"
+            android:src="@drawable/lock"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="61dp"
+            android:text="Password"
+            android:fontFamily="@font/roboto_rgl"
+            android:textColor="#9A9A9A"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:layout_width="16.31dp"
+            android:layout_height="16.31dp"
+            android:layout_marginTop="15.1dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="255dp"
+            android:src="@drawable/eye"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    #login button
+    <androidx.cardview.widget.CardView
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginStart="33dp"
+        app:cardBackgroundColor="@color/txtcolor"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="311dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/or"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    #login with google
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="303dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="642dp"
+        android:layout_marginStart="33dp"
+        app:cardBackgroundColor="#E7E7E7"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#707070"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="37dp"
+            android:src="@drawable/google"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginStart="95.2dp"
+            android:text="Login with Google"
+            android:fontFamily="@font/roboto_mid"
+            android:textColor="@color/txtcolor"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
