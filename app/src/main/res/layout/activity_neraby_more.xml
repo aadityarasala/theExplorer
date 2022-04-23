@@ -93,7 +93,6 @@
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_marginTop="47dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="3dp">
@@ -105,7 +104,7 @@
                 android:textSize="18dp"
                 android:fontFamily="@font/roboto_black"
                 android:layout_marginTop="19dp"
-                android:layout_marginLeft="32"
+                android:layout_marginLeft="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"/>
                 <LinearLayout
@@ -313,5 +312,209 @@
 
                 </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="3dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food&amp;drink"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_marginRight="25dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivery"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_marginRight="25dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stores"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Takeaway"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="13dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_marginRight="25dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Coffee"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_marginRight="25dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Groceries"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bars"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_marginRight="25dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Restaurants"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="83dp"
+                        android:layout_height="26dp"
+                        app:cardCornerRadius="15dp"
+                        android:layout_marginRight="25dp"
+                        app:strokeColor="#707070"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/white">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hotel"
+                            android:textColor="@color/txtcolor"
+                            android:textSize="11dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            />
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
