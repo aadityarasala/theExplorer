@@ -90,7 +90,7 @@
                         android:layout_marginStart="33dp"
                         android:layout_marginTop="241dp"
                         android:fontFamily="@font/roboto_rgl"
-                        android:text="Narmada"
+                        android:text="--------"
                         android:textColor="@color/white"
                         android:textSize="12dp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -102,19 +102,14 @@
                         android:layout_marginStart="14dp"
                         android:layout_marginTop="209dp"
                         android:fontFamily="@font/roboto_bold"
-                        android:text="Statue of Unity"
+                        android:text="---------"
                         android:textColor="@color/white"
                         android:textSize="17dp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.recyclerview.widget.RecyclerView>
 
-                <!--                <androidx.recyclerview.widget.RecyclerView-->
-                <!--                    android:layout_width=""-->
-                <!--                    android:layout_height="">-->
-
-                <!--                </androidx.recyclerview.widget.RecyclerView>-->
-            </HorizontalScrollView>
+                </HorizontalScrollView>
         </LinearLayout>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
