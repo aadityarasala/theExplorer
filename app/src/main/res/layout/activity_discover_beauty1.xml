@@ -34,27 +34,87 @@
         app:layout_constraintTop_toTopOf="parent">
 
         #layer1
+
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
                     android:text="7 Wonders of the World"
                     android:textColor="@color/txtcolor"
-                    android:fontFamily="@font/roboto_black"
-                    android:textSize="25dp"/>
+                    android:textSize="25dp" />
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="288dp">
 
-            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="288dp"
+                    android:layout_height="288dp"
+                    android:layout_marginEnd="19dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:src=""
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="13.5dp"
+                        android:layout_marginTop="242dp"
+                        android:src="@drawable/location"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="33dp"
+                        android:layout_marginTop="241dp"
+                        android:fontFamily="@font/roboto_rgl"
+                        android:text="Narmada"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="209dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Statue of Unity"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <!--                <androidx.recyclerview.widget.RecyclerView-->
+                <!--                    android:layout_width=""-->
+                <!--                    android:layout_height="">-->
+
+                <!--                </androidx.recyclerview.widget.RecyclerView>-->
+            </HorizontalScrollView>
         </LinearLayout>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
