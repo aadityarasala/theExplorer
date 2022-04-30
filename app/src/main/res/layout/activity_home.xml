@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/bottom_navigation_menu"
-        android:background="@color/white"
+        android:elevation="5dp"
+        android:background="#F7F7F7"
         app:itemIconTint="@color/txtcolor"
         app:itemTextColor="@color/txtcolor"
         app:layout_constraintBottom_toBottomOf="parent"/>
@@ -1824,5 +1825,5 @@
             </HorizontalScrollView>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>
