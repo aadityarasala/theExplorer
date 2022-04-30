@@ -68,12 +68,12 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
-                    <ImageView
-                        android:layout_width="288dp"
-                        android:layout_height="288dp"
-                        android:src=""
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+<!--                    <ImageView-->
+<!--                        android:layout_width="288dp"-->
+<!--                        android:layout_height="288dp"-->
+<!--                        android:src=""-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent" />-->
 
                     <ImageView
                         android:layout_width="16dp"
@@ -109,7 +109,8 @@
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.recyclerview.widget.RecyclerView>
 
-                </HorizontalScrollView>
+
+            </HorizontalScrollView>
         </LinearLayout>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
