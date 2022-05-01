@@ -25,7 +25,7 @@ public class home extends AppCompatActivity {
 
     // Make sure to be using androidx.appcompat.app.ActionBarDrawerToggle version.
     private ActionBarDrawerToggle drawerToggle;
-    private ActionBarDrawerToggle drawerToogle;
+    //private ActionBarDrawerToggle drawerToogle;
 
 
     @Override
