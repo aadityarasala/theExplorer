@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1_fragment"
+            android:icon="@drawable/home_navi_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_2_fragment"
+            android:icon="@drawable/home_navi_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_3_fragment"
+            android:icon="@drawable/home_navi_location"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_4_fragment"
+            android:icon="@drawable/home_navi_bluespot"
+            android:title="Blue Spot Places" />
+        <item
+            android:id="@+id/nav_5_fragment"
+            android:icon="@drawable/home_navi_add"
+            android:title="Add Post" />
+        <item
+            android:id="@+id/nav_6_fragment"
+            android:icon="@drawable/home_navi_feedback"
+            android:title="Feedback" />
+        <item
+        android:id="@+id/nav_7_fragment"
+        android:icon="@drawable/home_navi_bookmark"
+        android:title="Bookmark" />
+        <item
+            android:id="@+id/nav_8_fragment"
+            android:icon="@drawable/home_navi_about_outline"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_9_fragment"
+            android:icon="@drawable/home_navi_contact"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/nav_10_fragment"
+            android:icon="@drawable/home_navi_logout"
+            android:title="Logout " />
+    </group>
+</menu>
