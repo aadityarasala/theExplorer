@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -26,7 +25,7 @@ public class home extends AppCompatActivity {
 
     // Make sure to be using androidx.appcompat.app.ActionBarDrawerToggle version.
     private ActionBarDrawerToggle drawerToggle;
-    //private ActionBarDrawerToggle drawerToogle;
+    private ActionBarDrawerToggle drawerToogle;
 
 
     @Override
@@ -52,7 +51,7 @@ public class home extends AppCompatActivity {
 
 
         // Setup toggle to display hamburger icon with nice animation
-        //drawerToogle.setDrawerIndicatorEnabled(true);
+        drawerToogle.setDrawerIndicatorEnabled(true);
         drawerToggle.syncState();
 
         // Tie DrawerLayout events to the ActionBarToggle
