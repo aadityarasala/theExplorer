@@ -24,6 +24,7 @@ public class home extends AppCompatActivity {
     // Make sure to be using androidx.appcompat.app.ActionBarDrawerToggle version.
     private ActionBarDrawerToggle drawerToggle;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,12 +39,20 @@ public class home extends AppCompatActivity {
 
         // Find our drawer view
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerToggle = setupDrawerToggle();
 
         // Find our drawer view
         nvDrawer = (NavigationView) findViewById(R.id.nvView);
         // Setup drawer view
         setupDrawerContent(nvDrawer);
 
+        
+        // Setup toggle to display hamburger icon with nice animation
+        drawerToogle.setDrawerIndicatorEnabled(true);
+        drawerToggle.syncState();
+
+        // Tie DrawerLayout events to the ActionBarToggle
+        mDrawer.addDrawerListener(drawerToggle);
 
 
     }
@@ -129,25 +138,6 @@ public class home extends AppCompatActivity {
         setTitle(menuItem.getTitle());
         // Close the navigation drawer
         mDrawer.closeDrawers();
-    }
-
-    protected void onCreate(Bundle savedInstanceState) {
-        // Set a Toolbar to replace the ActionBar.
-        super.onCreate(savedInstanceState);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        // Find our drawer view
-        mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawerToggle = setupDrawerToggle();
-
-        // Setup toggle to display hamburger icon with nice animation
-        drawerToogle.setDrawerIndicatorEnabled(true);
-        drawerToggle.syncState();
-
-        // Tie DrawerLayout events to the ActionBarToggle
-        mDrawer.addDrawerListener(drawerToggle);
     }
 
     private ActionBarDrawerToggle setupDrawerToggle() {
