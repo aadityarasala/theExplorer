@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".contact_us"
-    >
+    tools:context=".about_us"
+    android:background="@color/screenbg">
     <ImageView
         android:layout_width="21dp"
         android:layout_height="20dp"
@@ -19,8 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="105dp"
-        android:text="More Categories"
-        android:textColor="@color/black"
+        android:text="About Us"
+        android:textColor="@color/txtcolor"
         android:textSize="24dp"
         android:fontFamily="@font/roboto_bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +29,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="285dp"
+        android:id="@+id/image"
         android:layout_marginLeft="45dp"
         android:layout_marginRight="45dp"
         android:layout_marginTop="108dp"
@@ -37,8 +38,29 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/contact_us"/>
-
+            android:src="@drawable/about_us"/>
     </com.google.android.material.card.MaterialCardView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="34dp"
+        android:text="The explorer - The travel and  guide app.\n
+
+        “Travel is the main thing you purchase that makes you more extravagant”. travel dreams that make you perpetually rich constantly. We have been moving excellent encounters for a considerable length of time through our cutting edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.
+
+        \n\nPrivacy policy
+
+        \nFor read all privacy policy please click on below mentioned link :-
+
+
+        \n\nFor more details visit :-"
+        android:textColor="@color/txtcolor"
+        android:fontFamily="@font/roboto_rgl"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

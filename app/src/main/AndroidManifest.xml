@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
             android:name=".discover_beauty1"
             android:exported="false" />
         <activity
-            android:name=".contact_us"
+            android:name="."
             android:exported="false" />
         <activity
             android:name=".Neraby_more"
@@ -34,7 +37,7 @@
             android:name=".home_auto_layout"
             android:exported="true" />
         <activity
-            android:name=".home"
+            android:name=".contact_us"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
