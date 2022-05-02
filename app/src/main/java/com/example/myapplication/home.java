@@ -51,7 +51,7 @@ public class home extends AppCompatActivity {
 
 
         // Setup toggle to display hamburger icon with nice animation
-        drawerToogle.setDrawerIndicatorEnabled(true);
+        //drawerToogle.setDrawerIndicatorEnabled(true);
         drawerToggle.syncState();
 
         // Tie DrawerLayout events to the ActionBarToggle
