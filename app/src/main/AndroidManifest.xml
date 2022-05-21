@@ -13,13 +13,13 @@
             android:name=".profile"
             android:exported="false" />
         <activity
-            android:name=".home"
+            android:name=".contact_us"
             android:exported="false" />
         <activity
-            android:name=".discover_beauty1"
+            android:name=".homecontact_us"
             android:exported="false" />
         <activity
-            android:name="."
+            android:name=".about_us"
             android:exported="false" />
         <activity
             android:name=".Neraby_more"
@@ -40,7 +40,7 @@
             android:name=".home_auto_layout"
             android:exported="true" />
         <activity
-            android:name=".contact_us"
+            android:name=".discover_beauty1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
