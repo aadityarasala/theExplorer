@@ -54,62 +54,359 @@
                     android:textSize="25dp" />
             </LinearLayout>
 
+            #laayer 1
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="288dp"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="35dp">
 
-                <androidx.recyclerview.widget.RecyclerView
-                    android:layout_width="288dp"
-                    android:layout_height="288dp"
-                    android:layout_marginEnd="19dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
 
-<!--                    <ImageView-->
-<!--                        android:layout_width="288dp"-->
-<!--                        android:layout_height="288dp"-->
-<!--                        android:src=""-->
-<!--                        app:layout_constraintStart_toStartOf="parent"-->
-<!--                        app:layout_constraintTop_toTopOf="parent" />-->
-
-                    <ImageView
-                        android:layout_width="16dp"
-                        android:layout_height="18dp"
-                        android:layout_marginStart="13.5dp"
-                        android:layout_marginTop="242dp"
-                        android:src="@drawable/location"
+                    #image1
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="33dp"
-                        android:layout_marginTop="241dp"
-                        android:fontFamily="@font/roboto_rgl"
-                        android:text="--------"
-                        android:textColor="@color/white"
-                        android:textSize="12dp"
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Beijing"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Great Wall of China"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                    #image2
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_marginTop="209dp"
-                        android:fontFamily="@font/roboto_bold"
-                        android:text="---------"
-                        android:textColor="@color/white"
-                        android:textSize="17dp"
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Mexico"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Chichén Itzá"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                    #image3
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-                </androidx.recyclerview.widget.RecyclerView>
+                        app:layout_constraintTop_toTopOf="parent">
 
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
 
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Jordan"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Petra"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                    #image4
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Peru"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Machu Picchu"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                    #image5
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Rio de Janeiro"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Christ the Redeemer"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                    #image6
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_6"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Rome"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Colosseum"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                    #image7
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_marginEnd="19dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="288dp"
+                            android:layout_height="288dp"
+                            android:src="@drawable/db1_l1_7"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="13.5dp"
+                            android:layout_marginTop="242dp"
+                            android:src="@drawable/location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="33dp"
+                            android:layout_marginTop="241dp"
+                            android:fontFamily="@font/roboto_rgl"
+                            android:text="Agra, India"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginTop="209dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Taj Mahal"
+                            android:textColor="@color/white"
+                            android:textSize="17dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>
     </RelativeLayout>
