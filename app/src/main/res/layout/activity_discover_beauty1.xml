@@ -809,7 +809,6 @@
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
-
             #layer3
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1199,6 +1198,770 @@
                     </HorizontalScrollView>
                 </LinearLayout>
             </LinearLayout>
+            #layer4
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="26dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="Discover China"
+                        android:textColor="@color/txtcolor"
+                        android:textSize="21dp" />
+                </LinearLayout>
+                #layer 4
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        #image1
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_1"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image2
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_2"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image3
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_3"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image4
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_4"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image5
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image6
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_6"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image7
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l4_7"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            #layer5
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="26dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="--------"
+                        android:textColor="@color/txtcolor"
+                        android:textSize="21dp" />
+                </LinearLayout>
+                #layer 5
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        #image1
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_1"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image2
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_2"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image3
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_3"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image4
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_4"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image5
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image6
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_6"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                        #image7
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="240dp"
+                            android:layout_height="240dp"
+                            android:layout_marginEnd="19dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageView
+                                android:layout_width="240dp"
+                                android:layout_height="240dp"
+                                android:src="@drawable/db1_l5_7"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="13.5dp"
+                                android:layout_marginTop="203dp"
+                                android:src="@drawable/location"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="33dp"
+                                android:layout_marginTop="203dp"
+                                android:fontFamily="@font/roboto_rgl"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginTop="175dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="-----"
+                                android:textColor="@color/white"
+                                android:textSize="17dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
