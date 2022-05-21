@@ -8,6 +8,7 @@
     tools:context=".home"
     android:background="@color/screenbg">
 
+
     #bottom navi
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -19,6 +20,7 @@
         app:itemIconTint="@color/txtcolor"
         app:itemTextColor="@color/txtcolor"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
 
     <ScrollView
         android:layout_width="362dp"

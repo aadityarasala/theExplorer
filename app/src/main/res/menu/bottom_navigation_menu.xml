@@ -12,10 +12,8 @@
         android:icon="@drawable/navi_location"
         android:title="LOCATION" />
     <item
-        android:id="@+id/page_3"
-        android:enabled="true"
-        android:icon="@drawable/navi_add"
-        android:title="ADD" />
+        android:id="@+id/placeholder"
+        android:title="" />
     <item
         android:id="@+id/page_4"
         android:enabled="true"
